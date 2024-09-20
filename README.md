@@ -15,3 +15,4 @@ Included in the app:
 The following links were used in this project
  - API - https://potterapi-fedeperin.vercel.app/en/books/
  - Guide how to implement API - https://www.geeksforgeeks.org/implementing-rest-api-in-flutter/
+ - Skibidi
