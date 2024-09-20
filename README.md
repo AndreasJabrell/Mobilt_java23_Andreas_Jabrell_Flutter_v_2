@@ -1,16 +1,17 @@
-# flutter_v4
+# flutter_v2
 
-A new Flutter project.
+A new Flutter project. Built exactly according to customers instructions
 
-## Getting Started
+## What is happening in this app?
 
-This project is a starting point for a Flutter application.
+This project in a course for Android App Development, made to include all steps for a good grade
 
-A few resources to get you started if this is your first Flutter project:
+Included in the app:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Homepage with two buttons and a textfield
+- A second page with a nice GIF of Jim Halpert from the Office + a button in the AppBar which produces a SnackBar.
+- A third page which lists all the Harry Potter books, including title, description and cover. 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The following links were used in this project
+ - API - https://potterapi-fedeperin.vercel.app/en/books/
+ - Guide how to implement API - https://www.geeksforgeeks.org/implementing-rest-api-in-flutter/
