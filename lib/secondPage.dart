@@ -26,10 +26,9 @@ class _secondPageState extends State<secondPage> {
                   const SnackBar(content: Text('Gå till sida tre istället, mycket roligare')));
             },
           ),
-
         ],
       ),
-      body: Center(
+      body: SingleChildScrollView(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
@@ -41,18 +40,17 @@ class _secondPageState extends State<secondPage> {
             }, child: Text("Back to HOME page")),
 
             Image.network(
-             'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHJ5BB8Ex6dmUiZn8daexIFdqQ7ouG75kuYgTHyI9AGDrXVfdDyVn6BULOYkFIiyg1uHFH-v_Qogxa6Q53Ap7PyBuZLePZf6UkqAA4jzBHSgBPmyT8XafM24MvcXGrvDhRuIPECVnRxQXB/s400/harry+p.gif',
+             'https://cdn.prod.website-files.com/5d2b950d9ea87fc61f0c1f3e/5daa028e7721ae5d74817a68_dqLNOFNwqI5qonP2gsu1hsZC3zS4fwTtYuHidjGxrbFHesRCUqI6jmPjhTUqVX-OUL60EjwGQIO-V-qSo29hnCDrMn1yDjYkGg5Mgh1av4NzJWSCeSHwVD0NQERjmJ7E1T5yXymM.gif',
              errorBuilder: (context, error, stackTrace) {
                 return Icon(Icons.error); // Placeholder for error handling
           }),
             const Card(
               child: Padding(
                 padding: EdgeInsets.all(30.0),
-                child: Text('Kolla en ruta!'),
+                child: Text('Kolla en ruta, absolut meningslös men extra padding!'),
               ),
             ),
-
-                     ],
+          ],
         ),
       ),
        // This trailing comma makes auto-formatting nicer for build methods.

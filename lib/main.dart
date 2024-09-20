@@ -20,6 +20,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.pinkAccent),
         useMaterial3: true,
       ),
+      debugShowCheckedModeBanner: false,
+      //routing för de olika sidorna
       initialRoute: '/',
       routes: {
         '/': (context) => const MyHomePage(title: "Home"),
@@ -39,6 +41,8 @@ class MyHomePage extends StatefulWidget {
 
   @override
   State<MyHomePage> createState() => _MyHomePageState();
+  
+  
 }
 
 class _MyHomePageState extends State<MyHomePage> {
@@ -76,7 +80,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 }
 
-// Exempel på fetch-funktionen
+// fetch-funktion för API
 Future<List<HarryPotter>> fetchHarryPotter() async {
 
   final response = await http.get(Uri.parse('https://potterapi-fedeperin.vercel.app/en/books/'));
@@ -88,3 +92,4 @@ Future<List<HarryPotter>> fetchHarryPotter() async {
     throw Exception('Failed to load Harry Potter books');
   }
 }
+
